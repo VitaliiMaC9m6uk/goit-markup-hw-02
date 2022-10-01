@@ -1,0 +1,102 @@
+:root{
+    --logo-blue-color: #2196F3;
+    --title-color:#212121;
+    --text-color:#757575;
+    --logo-black-color:#000000;
+    --white-color:#FFFFFF;
+    --bg-color:#2F303A;
+    --footer-mail:rgba(255, 255, 255, 0.6);
+    --button-bg-port:#F5F4FA;
+}
+
+.list{
+    list-style: none;
+}
+.site-nav .link.current{
+    color: var(--logo-blue-color);
+}
+.invisibility{
+    opacity: 0;
+}
+/* Шапка */
+.logo-blue{
+    color:var(--logo-blue-color) ;
+}
+.logo-black{
+    color:var(--logo-black-color) ;
+}
+.site-nav .link{
+    color: var(--title-color);
+}
+.link:focus{
+    color: var(--logo-blue-color);
+}
+.link:hover{
+    color: var(--logo-blue-color);
+}
+.mail-link {
+    color: var(--logo-blue-color);
+}
+.tel-link{
+    color: var(--text-color);
+}
+/* Головний текст */
+.block-service{
+    background-color:var(--bg-color);
+    position:relative;
+    width: 1600px;
+    height: 600px;    
+    text-align: center;
+}
+.titel-service{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    padding-top: 200px;
+}
+.button{
+    width: 216px;
+    height: 50px;
+    background-color: var(--logo-blue-color);
+    color: var(--white-color);
+    border-radius: 4px;
+}
+
+.title{
+    color: var(--title-color);
+}
+.text{
+    color: var(--text-color);
+}
+/* Подвал */
+.logo-white{
+    color: var(--white-color);
+}
+.bg-footer{
+    background-color:var(--bg-color);
+    position:relative;
+    width: 1600px;
+    height: 252px;
+}
+.adress-footer{
+    color: var(--white-color);
+}
+.mail-footer{
+    color:var(--footer-mail) ;
+}
+/* portfolio */
+.button-port{
+    height: 38px;
+    color: var(--title-color);
+    background-color: var(--button-bg-port);
+    border-radius: 4px;
+}
+.button-port:hover{
+    color: var(--white-color);
+    background-color: var(--logo-blue-color);
+}
+.button-port.current{
+    color: var(--white-color);
+    background-color: var(--logo-blue-color); 
+}
