@@ -33,10 +33,20 @@
 .logo-black{
     color:var(--logo-black-color) ;
 }
-.site-nav .link{
-    color: var(--title-color);
-    font-size: 14px;
+.mail-link {
+    color: var(--logo-blue-color);
     font-weight: 500;
+    line-height: 16px;
+}
+.site-nav .link{
+    color: var(--title-color);    
+    font-weight: 500;
+    line-height: 16px;
+}
+.tel-link{
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--text-color);
 }
 .link:focus{
     color: var(--logo-blue-color);
@@ -44,18 +54,16 @@
 .link:hover{
     color: var(--logo-blue-color);
 }
-.mail-link {
-    color: var(--logo-blue-color);
-}
-.tel-link{
-    color: var(--text-color);
-}
+
+
 /* Головний текст */
 .main-text{
     font-family: 'Roboto';
     font-style: normal;
     color:var(--text-color);
-    font-weight: 400;
+    font-weight: 400;    
+    font-size: 14px;
+    line-height: 24px;
 }
 .block-service{
     background-color:var(--bg-color);
@@ -80,10 +88,31 @@
 }
 
 .title{
+    font-weight: 700;    
+    line-height: 16px;
     color: var(--title-color);
 }
-.text{
-    color: var(--text-color);
+.work .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--title-color);
+}
+.team .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--title-color);
+}
+.team .list .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--title-color);
+}
+.team .list .text{    
+    font-size: 16px;
+    line-height: 19px;
 }
 /* Подвал */
 .logo-white{
@@ -107,13 +136,28 @@
     color: var(--title-color);
     background-color: var(--button-bg-port);
     border-radius: 4px;
-    cursor: pointer
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;  
+    border-color: var(--button-bg-port); 
 }
 .button-port:hover{
     color: var(--white-color);
     background-color: var(--logo-blue-color);
+    border-color: var(--logo-blue-color);
 }
 .button-port.current{
     color: var(--white-color);
     background-color: var(--logo-blue-color); 
+    border-color: var(--logo-blue-color);
+}
+.collection .list .title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+.collection .list .text{
+    font-size: 16px;
+    line-height: 30px;
 }
