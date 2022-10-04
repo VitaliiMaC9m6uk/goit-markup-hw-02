@@ -100,12 +100,10 @@ address{
     letter-spacing: 0.03em;
 }
 .title-name{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;    
-    letter-spacing: 0.03em;
+    font-weight: 500;    
 }
-.team .text{    
+.team .text,
+.title-name{    
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
