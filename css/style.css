@@ -16,9 +16,6 @@ body {
     font-weight:400;
     font-size: 14px;        
 }
-h1,h2,h3,h4,h5,h6{
-    color: var(--title-color);
-}
 address{
     font-style: normal;
 }
@@ -71,6 +68,7 @@ address{
 
 /* Головний текст */
 .titel-service{
+    color: var(--title-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -84,7 +82,7 @@ address{
     border-radius: 4px;    
 }
 .list .title{
-    font-weight: 700;    
+    color: var(--title-color);
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
@@ -94,13 +92,14 @@ address{
 }
 .work .title,
 .team .title{
-    font-weight: 700;
+    color: var(--title-color);
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .title-name{
+    color: var(--title-color);
     font-weight: 500;    
 }
 .team .text,
@@ -149,7 +148,7 @@ address{
     border-color: var(--logo-blue-color);
 }
 .title-collection{    
-    font-weight: 700;
+    color: var(--title-color);
     font-size: 18px;
     line-height: 2;
     
@@ -162,6 +161,6 @@ address{
 .decoration-link{
     text-decoration: none;
 }
-a{
+/* a{
     text-decoration: none;
-}
+} */
