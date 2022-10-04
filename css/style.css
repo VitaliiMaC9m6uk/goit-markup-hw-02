@@ -9,15 +9,19 @@
     --button-bg-port:#F5F4FA;
 }
 /* Шрифт Body */
-.main-text{
-    font-family: 'Roboto';
-    font-style: normal;
+body {
+    font-family: Roboto, sans-serif;
     color:var(--text-color);
-    font-weight: 400;    
-    font-size: 14px;
-    line-height: 24px;
+    font-style: normal;
+    font-weight:400;
+    font-size: 14px;        
 }
-
+h1,h2,h3,h4,h5,h6{
+    color: var(--title-color);
+}
+address{
+    font-style: normal;
+}
 .list{
     list-style: none;
 }
@@ -33,7 +37,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .logo-blue{
@@ -42,20 +46,19 @@
 .logo-black{
     color:var(--logo-black-color) ;
 }
-.mail-link {
+.mail-link,
+.tel-link,
+.site-nav .link {
     color: var(--logo-blue-color);
-    font-weight: 500;
-    line-height: 16px;
+    font-weight: 500;   
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-.site-nav .link{
-    color: var(--title-color);    
-    font-weight: 500;
-    line-height: 16px;
-}
+.site-nav .link {
+    color: var(--title-color);
+}    
 .tel-link{
-    font-weight: 500;
-    line-height: 16px;
-    color: var(--text-color);
+    color: var(--text-color);    
 }
 .link:focus{
     color: var(--logo-blue-color);
@@ -66,62 +69,46 @@
 
 
 /* Головний текст */
-.main-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    color:var(--text-color);
-    font-weight: 400;    
-    font-size: 14px;
-    line-height: 24px;
-}
-.block-service{
-    background-color:var(--bg-color);
-    position:relative;
-    width: 1600px;
-    height: 600px;    
-    text-align: center;
-}
 .titel-service{
-    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    padding-top: 200px;
+    line-height: 1.36;
+    text-align: center;
 }
 .button{
     width: 216px;
     height: 50px;
     background-color: var(--logo-blue-color);
     color: var(--white-color);
-    border-radius: 4px;
+    border-radius: 4px;    
 }
-
-.title{
+.list .title{
     font-weight: 700;    
-    line-height: 16px;
-    color: var(--title-color);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
-.work .title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: var(--title-color);
+.list .text{
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
+.work .title,
 .team .title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    color: var(--title-color);
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
-.team .list .title{
+.title-name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    color: var(--title-color);
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
 }
-.team .list .text{    
+.team .text{    
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 /* Подвал */
 .logo-white{
@@ -141,15 +128,15 @@
 }
 /* portfolio */
 .button-port{
-    height: 38px;
-    color: var(--title-color);
-    background-color: var(--button-bg-port);
-    border-radius: 4px;
-    cursor: pointer;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;  
-    border-color: var(--button-bg-port); 
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    border-radius: 4px;
+    border-color: var(--button-bg-port);
+    font-family: Roboto,sans-serif;
 }
 .button-port:hover{
     color: var(--white-color);
@@ -161,15 +148,17 @@
     background-color: var(--logo-blue-color); 
     border-color: var(--logo-blue-color);
 }
-.collection .list .title{
+.title-collection{    
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
+    
 }
-.collection .list .text{
+.text-collection{
+    color: var(--text-color);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
 }
-address{
-    font-style: normal;
+.collection-link{
+    text-decoration: none;
 }
