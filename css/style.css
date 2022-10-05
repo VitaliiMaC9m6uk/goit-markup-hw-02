@@ -79,7 +79,8 @@ address{
     height: 50px;
     background-color: var(--logo-blue-color);
     color: var(--white-color);
-    border-radius: 4px;    
+    border-radius: 4px;
+    cursor: pointer;
 }
 .list .title{
     color: var(--title-color);
